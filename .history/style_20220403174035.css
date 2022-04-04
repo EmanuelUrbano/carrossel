@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+
+.carrossel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

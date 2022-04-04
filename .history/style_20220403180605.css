@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+.carrossel{
+   display: flex;
+   width: auto;
+   overflow-x: scroll;
+   scroll-behavior: smooth;
+}
+.carrossel>*{
+    flex: none;
+}
+.items{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.grid{
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: auto;
+    height: auto;
+}

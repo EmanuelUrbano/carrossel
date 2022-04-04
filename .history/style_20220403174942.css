@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+.carrossel{
+   display: flex;
+    width: 100vw;
+}
+.carrossel>*{
+    flex: none;
+    overflow-x: auto;
+}
+.items{
+    width: 100%;
+    height: 100%;
+}

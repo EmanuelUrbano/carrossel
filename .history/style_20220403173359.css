@@ -1,0 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
+.carrossel{
+    image-rendering: optimizeQuality;
+}

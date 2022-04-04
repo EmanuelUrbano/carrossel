@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+
+.carrossel{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: fit-content;
+}

@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+.carrossel{
+    display: flex;
+   
+    width: 100vw;
+    height: 50vh;
+}
+.carrossel>*{
+    flex: none;
+}
